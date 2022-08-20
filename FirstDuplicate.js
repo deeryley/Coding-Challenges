@@ -11,6 +11,7 @@ function solution(a) {
   if (index == a.length) return -1;
   else return a[index];
 }
+
 // solution with sets. Each time that there is a duplicate the fn returns it, in that way it always returns the last value
 function firstDuplicate(a) {
   let newSet = new Set();
@@ -23,3 +24,5 @@ function firstDuplicate(a) {
   }
   return -1;
 }
+
+console.log(firstDuplicate([1, 3, 4, 5, 2]));
