@@ -52,8 +52,6 @@ For a = [2, 4, 3, 5, 1], the output should be solution(a) = -1.
 <h2>5. shapeArea</h2>
 Below we will define an n-interesting polygon. Your task is to find the area of a polygon for a given n.
 
-<img src='https://github.com/vstchv/Coding-Challenges/blob/master/5.%20shapeArea.png'/>
-
 A 1-interesting polygon is just a square with a side of length 1. An n-interesting polygon is obtained by taking the n - 1-interesting polygon and appending 1-interesting polygons to its rim, side by side. You can see the 1-, 2-, 3- and 4-interesting polygons in the picture below.
 
 For n = 2, the output should be
@@ -61,4 +59,16 @@ solution(n) = 5;
 For n = 3, the output should be
 solution(n) = 13.
 
+<img src='https://github.com/vstchv/Coding-Challenges/blob/master/5.%20shapeArea.png'/>
+
 [Solution](https://github.com/vstchv/Coding-Challenges/blob/master/5.%20shapeArea.js)
+
+<h2>6. makeArrayConsecutive2</h2>
+Ratiorg got statues of different sizes as a present from CodeMaster for his birthday, each statue having an non-negative integer size. Since he likes to make things perfect, he wants to arrange them from smallest to largest so that each statue will be bigger than the previous one exactly by 1. He may need some additional statues to be able to accomplish that. Help him figure out the minimum number of additional statues needed.
+
+Example
+For statues = [6, 2, 3, 8], the output should be
+solution(statues) = 3.
+Ratiorg needs statues of sizes 4, 5 and 7.
+
+[Solution](https://github.com/vstchv/Coding-Challenges/blob/master/6.%20makeArrayConsecutive2.js)
